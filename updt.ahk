@@ -1,13 +1,10 @@
-;
-; AutoHotkey Version: 1.x
-; Language:       English
-; Platform:       Win9x/NT
-; Author:         A.N.Other <myemail@nowhere.com>
-;
-; Script Function:
-;	Template script (you can customize this template by editing "ShellNew\Template.ahk" in your Windows folder)
-;
-
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+updurl := "https://github.com/shoymen/RustAutoPanel/blob/main/Auto%20Panel.exe"
+SplashTextOn, , 60,Автообновление, Обновление. Ожидайте..`nНастраиваем систему обновления.
+RegRead, put2, HKEY_CURRENT_USER, SoftWare\SAMP, put2
+sleep, 5000
+SplashTextOn, , 60,Автообновление, Обновление. Ожидайте..`nСкачиваем обновленную версию.
+URLDownloadToFile, %updurl%, %put2%
+SplashTextOn, , 60,Автообновление, Обновление. Ожидайте..`nЗапускаем обновленную версию.
+sleep, 3000
+Run, % put2
+ExitApp
