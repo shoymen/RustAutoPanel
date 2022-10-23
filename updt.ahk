@@ -1,4 +1,4 @@
-updurl := "https://github.com/shoymen/RustAutoPanel/blob/main/Auto%20Panel.exe"
+updurl := "https://github.com/shoymen/RustAutoPanel/blob/main/Auto%20Panel.exe?raw=true"
 SplashTextOn, , 60,Автообновление, Обновление. Ожидайте..`nНастраиваем систему обновления.
 RegRead, put2, HKEY_CURRENT_USER, SoftWare\SAMP, put2
 sleep, 5000
