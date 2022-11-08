@@ -7,7 +7,7 @@
   -С выключенным уведомлением, корректно работает кликер с прыжками.
 [EN]
 1. Fixed "Fishing":
-  -Sometimes sharks were processed in vain;
-  -After recycler the shark or salmon, the scrap metal is discarded.
+  -Sometimes sharks were processed by accident (fixed);
+  -After hurting  the shark or salmon, the scrap metal is discarded.
 2. Fixed the clicker in the "Trader":
   -"Jump clicker" works correctly with disabled notifications.
