@@ -1,11 +1,11 @@
-
-[RU]
+FIX UPDATE 3.1.9
+RU
 1. Пофиксили "Fishing":
   -Иногда акулы перерабатывались зря;
   -После переработки акулы или лосося, выкидывается скрап.
 2.Пофиксили кликер в "Trader":
   -Коректно работает кликер с прыжками, если выключить уведомления.
-[EN}
+EN
 1. Fixed "Fishing":
   -Sometimes sharks were processed in vain;
   -After recycler the shark or salmon, the scrap metal is discarded.
